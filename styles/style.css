@@ -558,4 +558,40 @@ body {
   font-family: 'Times New Roman', Times, serif;
   font-size: 30px;
 }
+
+.footer {
+  width: 100%;
+  background-color: #232323;
+  text-align: center;
+  padding: 6% 0 3% 0;
+}
+
+.footer h5 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin-bottom: 0.5%;
+}
+
+.footer span {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.footer__contact {
+  width: 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 2% auto;
+}
 /*# sourceMappingURL=style.css.map */
