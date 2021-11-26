@@ -1,4 +1,12 @@
 @import "mixins";
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
 .bhromaon {
     width: 100%;
     text-align: center;
@@ -235,6 +243,7 @@
 .select {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     background-color: #333333;
     padding: 5% 5%;
     &__places {
@@ -255,7 +264,47 @@
     @include backgroundImage;
     padding: 10% 0% 5% 15%;
     &__spain {
-        width: 45%;
+        width: 48%;
+        background-color: #2e2d2ddc;
+        padding: 4% 2%;
+        & span {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            color: #e8e8e8;
+        }
+        & h3 {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #ffffff;
+            margin: 5% 0;
+        }
+        & p {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: 400;
+            color: #e8e8e8;
+        }
+        & a {
+            @include A;
+            margin-top: 8%;
+            padding: 3% 4%;
+        }
+    }
+}
+
+.grandsecond {
+    width: 100%;
+    display: flex;
+    background-image: url("../images/bg4.png");
+    @include backgroundImage;
+    padding: 10% 10% 5% 0;
+    justify-content: flex-end;
+    &__spain {
+        width: 48%;
         background-color: #2e2d2ddc;
         padding: 4% 2%;
         & span {

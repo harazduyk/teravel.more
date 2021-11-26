@@ -1,3 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 .bhromaon {
   width: 100%;
   text-align: center;
@@ -343,6 +351,8 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   background-color: #333333;
   padding: 5% 5%;
 }
@@ -369,7 +379,7 @@
 }
 
 .grandfirst__spain {
-  width: 45%;
+  width: 48%;
   background-color: #2e2d2ddc;
   padding: 4% 2%;
 }
@@ -399,6 +409,73 @@
 }
 
 .grandfirst__spain a {
+  width: 37%;
+  background-image: url("../images/button_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  font-family: 'Aleo', serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 8%;
+  padding: 3% 4%;
+}
+
+.grandsecond {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../images/bg4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10% 10% 5% 0;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.grandsecond__spain {
+  width: 48%;
+  background-color: #2e2d2ddc;
+  padding: 4% 2%;
+}
+
+.grandsecond__spain span {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #e8e8e8;
+}
+
+.grandsecond__spain h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 5% 0;
+}
+
+.grandsecond__spain p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #e8e8e8;
+}
+
+.grandsecond__spain a {
   width: 37%;
   background-image: url("../images/button_bg.png");
   background-size: cover;
