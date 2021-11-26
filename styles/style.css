@@ -1,1 +1,109 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.bhromaon {
+  width: 100%;
+  text-align: center;
+  background-image: url(../images/bg1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10% 5% 8% 5%;
+}
+
+.bhromaon h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.bhromaon h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 6px;
+  color: #ffffff;
+}
+
+.bhromaon span {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.bhromaon form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 42%;
+  height: 50px;
+  margin: 4% auto 8% auto;
+}
+
+.bhromaon form input {
+  background-color: #ffffff;
+  border: none;
+  padding: 0 17%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+.bhromaon form input::-webkit-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #999999;
+}
+
+.bhromaon form input:-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #999999;
+}
+
+.bhromaon form input::-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #999999;
+}
+
+.bhromaon form input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #999999;
+}
+
+.bhromaon form button {
+  width: 25%;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-family: 'Aleo', serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #5474fd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.bhromaon form button:hover {
+  background-color: #0e3689;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+/*# sourceMappingURL=style.css.map */

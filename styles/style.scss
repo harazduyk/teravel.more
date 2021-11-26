@@ -1,0 +1,67 @@
+@import "mixins";
+.bhromaon {
+    width: 100%;
+    text-align: center;
+    background-image: url(../images/bg1.png);
+    @include backgroundImage;
+    padding: 10% 5% 8% 5%;
+    & h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: #ffffff;
+        margin: 0;
+    }
+    & h4 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        letter-spacing: 6px;
+        color: #ffffff;
+    }
+    & span {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        color: #ffffff;
+    }
+    & form {
+        display: flex;
+        width: 42%;
+        height: 50px;
+        margin: 4% auto 8% auto;
+        & input {
+            background-color: #ffffff;
+            border: none;
+            padding: 0 17%;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            &::placeholder {
+                font-size: 14px;
+                font-weight: 400;
+                letter-spacing: 2px;
+                color: #999999;
+            }
+        }
+        & button {
+            width: 25%;
+            border: 2px solid #ffffff;
+            color: #ffffff;
+            font-family: 'Aleo', serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            background-color: #5474fd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+            &:hover {
+                background-color: #0e3689;
+                transition: .3s;
+            }
+        }
+    }
+}
