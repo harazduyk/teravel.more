@@ -332,4 +332,27 @@
   float: right;
   margin-top: 1%;
 }
+
+.select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #333333;
+  padding: 5% 5%;
+}
+
+.select__places {
+  text-align: center;
+}
+
+.select__places h2 {
+  font-family: 'Aleo', serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #e8e8e8;
+  margin-top: 5%;
+}
 /*# sourceMappingURL=style.css.map */
