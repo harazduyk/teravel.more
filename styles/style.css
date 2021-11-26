@@ -496,4 +496,66 @@ body {
   margin-top: 8%;
   padding: 3% 4%;
 }
+
+.what {
+  width: 100%;
+  background-image: url("../images/bg5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5% 0 10% 0%;
+}
+
+.what h2 {
+  font-family: 'Aleo', serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+}
+
+.what__sam {
+  width: 74%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #333333;
+  margin: 5% auto 0 auto;
+}
+
+.what__sam img {
+  width: 40%;
+}
+
+.what__sam_sumon {
+  width: 60%;
+  padding: 3% 6%;
+}
+
+.what__sam_sumon h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fefefe;
+}
+
+.what__sam_sumon p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #e8e8e8;
+}
+
+.what__sam_sumon span {
+  color: #5474fd;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
 /*# sourceMappingURL=style.css.map */
