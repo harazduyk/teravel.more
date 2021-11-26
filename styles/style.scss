@@ -215,18 +215,9 @@
             margin-top: 5%;
         }
         a {
-            width: 37%;
-            background-image: url("../images/button_bg.png");
-            @include backgroundImage;
-            display: flex;
-            text-decoration: none;
-            font-family: 'Aleo', serif;
-            font-size: 16px;
-            font-weight: 400;
-            text-transform: uppercase;
-            color: #ffffff;
-            padding: 3% 6%;
+            @include A;
             margin-top: 8%;
+            padding: 3% 6%;
         }
     }
     &__photo {
@@ -254,6 +245,44 @@
             font-weight: 400;
             color: #e8e8e8;
             margin-top: 5%;
+        }
+    }
+}
+
+.grandfirst {
+    width: 100%;
+    background-image: url("../images/bg3.png");
+    @include backgroundImage;
+    padding: 10% 0% 5% 15%;
+    &__spain {
+        width: 45%;
+        background-color: #2e2d2ddc;
+        padding: 4% 2%;
+        & span {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            color: #e8e8e8;
+        }
+        & h3 {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #ffffff;
+            margin: 5% 0;
+        }
+        & p {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: 400;
+            color: #e8e8e8;
+        }
+        & a {
+            @include A;
+            margin-top: 8%;
+            padding: 3% 4%;
         }
     }
 }

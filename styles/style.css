@@ -310,14 +310,17 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-decoration: none;
   font-family: 'Aleo', serif;
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
   color: #ffffff;
-  padding: 3% 6%;
   margin-top: 8%;
+  padding: 3% 6%;
 }
 
 .why__photo {
@@ -354,5 +357,66 @@
   font-weight: 400;
   color: #e8e8e8;
   margin-top: 5%;
+}
+
+.grandfirst {
+  width: 100%;
+  background-image: url("../images/bg3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10% 0% 5% 15%;
+}
+
+.grandfirst__spain {
+  width: 45%;
+  background-color: #2e2d2ddc;
+  padding: 4% 2%;
+}
+
+.grandfirst__spain span {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #e8e8e8;
+}
+
+.grandfirst__spain h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 5% 0;
+}
+
+.grandfirst__spain p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #e8e8e8;
+}
+
+.grandfirst__spain a {
+  width: 37%;
+  background-image: url("../images/button_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  font-family: 'Aleo', serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 8%;
+  padding: 3% 4%;
 }
 /*# sourceMappingURL=style.css.map */

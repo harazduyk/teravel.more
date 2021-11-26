@@ -3,3 +3,17 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+@mixin A {
+    width: 37%;
+    background-image: url("../images/button_bg.png");
+    @include backgroundImage;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Aleo', serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
