@@ -2,7 +2,7 @@
 .bhromaon {
     width: 100%;
     text-align: center;
-    background-image: url(../images/bg1.png);
+    background-image: url("../images/bg1.png");
     @include backgroundImage;
     padding: 10% 5% 8% 5%;
     & h1 {
@@ -186,5 +186,57 @@
     }
     .menu__item:hover {
         background-color: #CFD8DC;
+    }
+}
+
+.why {
+    width: 100%;
+    display: flex;
+    background-image: url("../images/bg2.png");
+    @include backgroundImage;
+    padding: 7% 0% 5% 15%;
+    &__choose {
+        width: 42%;
+        margin: 5% 5% 0 0;
+        & h2 {
+            font-family: 'Aleo', serif;
+            font-size: 36px;
+            font-weight: 400;
+            color: #ffffff;
+            margin-bottom: 5%;
+        }
+        & p {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: 400;
+            letter-spacing: 1px;
+            color: #e8e8e8;
+            margin-top: 5%;
+        }
+        a {
+            width: 37%;
+            background-image: url("../images/button_bg.png");
+            @include backgroundImage;
+            display: flex;
+            text-decoration: none;
+            font-family: 'Aleo', serif;
+            font-size: 16px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #ffffff;
+            padding: 3% 6%;
+            margin-top: 8%;
+        }
+    }
+    &__photo {
+        width: 35%;
+        &_first {
+            float: left;
+        }
+        &_second {
+            float: right;
+            margin-top: 1%;
+        }
     }
 }

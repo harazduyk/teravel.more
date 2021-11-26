@@ -1,7 +1,7 @@
 .bhromaon {
   width: 100%;
   text-align: center;
-  background-image: url(../images/bg1.png);
+  background-image: url("../images/bg1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -264,5 +264,72 @@
 
 .information .menu__item:hover {
   background-color: #CFD8DC;
+}
+
+.why {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../images/bg2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 7% 0% 5% 15%;
+}
+
+.why__choose {
+  width: 42%;
+  margin: 5% 5% 0 0;
+}
+
+.why__choose h2 {
+  font-family: 'Aleo', serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 5%;
+}
+
+.why__choose p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #e8e8e8;
+  margin-top: 5%;
+}
+
+.why__choose a {
+  width: 37%;
+  background-image: url("../images/button_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  font-family: 'Aleo', serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 3% 6%;
+  margin-top: 8%;
+}
+
+.why__photo {
+  width: 35%;
+}
+
+.why__photo_first {
+  float: left;
+}
+
+.why__photo_second {
+  float: right;
+  margin-top: 1%;
 }
 /*# sourceMappingURL=style.css.map */
