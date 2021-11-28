@@ -200,6 +200,7 @@
     .why {
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
         background-image: url("../images/bg2.png");
         @include backgroundImage;
         padding: 7% 0% 5% 15%;
@@ -231,9 +232,11 @@
         &__photo {
             width: 35%;
             &_first {
+                max-width: 100%;
                 float: left;
             }
             &_second {
+                max-width: 100%;
                 float: right;
                 margin-top: 1%;
             }
@@ -357,6 +360,7 @@
             margin: 5% auto 0 auto;
             & img {
                 width: 40%;
+                height: 30%;
             }
             &_sumon {
                 width: 60%;
@@ -412,3 +416,5 @@
             margin: 2% auto;
         }
     }
+    
+    @import "_media.scss";
