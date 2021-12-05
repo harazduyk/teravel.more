@@ -9,6 +9,7 @@
     
     .bhromaon {
         width: 100%;
+        flex-wrap: wrap;
         text-align: center;
         background-image: url("../images/bg1.png");
         @include backgroundImage;
@@ -39,14 +40,13 @@
         & form {
             display: flex;
             width: 42%;
-            height: 50px;
             margin: 4% auto 8% auto;
             & input {
                 background-color: #ffffff;
                 border: none;
-                padding: 0 17%;
                 font-family: 'Josefin Sans', sans-serif;
                 font-size: 20px;
+                padding: 8px 140px;
                 &::placeholder {
                     font-size: 14px;
                     font-weight: 400;
@@ -55,7 +55,6 @@
                 }
             }
             & button {
-                width: 25%;
                 border: 2px solid #ffffff;
                 color: #ffffff;
                 font-family: 'Aleo', serif;
@@ -89,7 +88,8 @@
             color: #ffffff;
         }
         & nav {
-            width: 40%;
+            width: 70%;
+            text-align: end;
             & ul {
                 list-style-type: none;
                 & li {
@@ -143,8 +143,8 @@
         .menu__btn {
             display: flex;
             align-items: center;
-            position: absolute;
-            top: 49%;
+            position: relative;
+            top: 0%;
             right: 5%;
             width: 26px;
             height: 26px;
@@ -414,6 +414,9 @@
             display: flex;
             justify-content: space-between;
             margin: 2% auto;
+            & object {
+                pointer-events: none;
+            }
         }
     }
     
